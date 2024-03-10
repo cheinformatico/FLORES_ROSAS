@@ -2,7 +2,6 @@
 Flores Rosas y Blancas usando CANVAS y CSS
 
 # REDES SOCIALES
-<br>
 Instagram: @elcheinformatico
 <br>
 Facebook: Elcheinformatico
