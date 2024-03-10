@@ -1,0 +1,1179 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    background: #000000;
+    height: 100vh;
+    width: 100%;
+}
+
+canvas {
+    position: absolute;
+    left: 15%;
+    top: 0%;
+}
+
+.floresl1 {
+    position: absolute;
+    top: 0%;
+    left: 32vw;
+    width: 8vw;
+    height: 8vw;
+    z-index: 1;
+}
+
+.floresl1 .centro {
+    position: absolute;
+    background: -webkit-radial-gradient(center, circle, #E59E14, #FBBF4C 50%);
+    width: 15%;
+    height: 15%;
+    top: 35%;
+    left: 40%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 2px #E59E14;
+}
+
+.floresl1 .pg1 {
+    position: absolute;
+    background: linear-gradient(to top, #B5BAB7 30%, #F6FFFF, #F6FFFF);
+    width: 25%;
+    height: 50%;
+    top: 0%;
+    left: 15%;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 1%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 1%;
+    rotate: -20deg;
+}
+
+.floresl1 .pg2 {
+    position: absolute;
+    background: linear-gradient(to top, #B5BAB7 30%, #F6FFFF, #F6FFFF);
+    width: 25%;
+    height: 50%;
+    top: 0%;
+    left: 50%;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 1%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 1%;
+    rotate: 60deg;
+}
+
+.floresl1 .pg3 {
+    position: absolute;
+    background: linear-gradient(to top, #B5BAB7 30%, #F6FFFF, #F6FFFF);
+    width: 25%;
+    height: 50%;
+    top: 35%;
+    left: 60%;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 1%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 1%;
+    rotate: 150deg;
+}
+
+.floresl1 .pg4 {
+    position: absolute;
+    background: linear-gradient(to top, #B5BAB7 30%, #F6FFFF, #F6FFFF);
+    width: 25%;
+    height: 50%;
+    top: 45%;
+    left: 35%;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 1%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 1%;
+    rotate: 200deg;
+}
+
+.floresl1 .pg5 {
+    position: absolute;
+    background: linear-gradient(to top, #B5BAB7 30%, #F6FFFF, #F6FFFF);
+    width: 25%;
+    height: 50%;
+    top: 40%;
+    left: 10%;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 1%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 1%;
+    rotate: -115deg;
+}
+
+
+.floresl2 {
+    position: absolute;
+    top: 63%;
+    left: 46%;
+    width: 15vw;
+    height: 15vw;
+}
+
+
+.floresl2 .centro {
+    position: absolute;
+    background: -webkit-radial-gradient(center, circle, #E59E14, #FBBF4C 50%);
+    width: 1.5vw;
+    height: 1.5vw;
+    top: 45%;
+    left: 45%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 5px #E59E14;
+}
+
+.floresl2 .pg1 {
+    position: absolute;
+    background: linear-gradient(to top, #B5BAB7 30%, #F6FFFF, #F6FFFF);
+    width: 3vw;
+    height: 7vw;
+    top: 5%;
+    left: 25%;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 1%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 1%;
+    rotate: -15deg;
+}
+
+.floresl2 .pg2 {
+    position: absolute;
+    background: linear-gradient(to top, #B5BAB7 30%, #F6FFFF, #F6FFFF);
+    width: 3vw;
+    height: 7vw;
+    top: 6%;
+    left: 53%;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 1%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 1%;
+    rotate: 55deg;
+}
+
+.floresl2 .pg3 {
+    position: absolute;
+    background: linear-gradient(to top, #B5BAB7 30%, #F6FFFF, #F6FFFF);
+    width: 3vw;
+    height: 7vw;
+    top: 35%;
+    left: 62%;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 1%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 1%;
+    rotate: 130deg;
+}
+
+
+.floresl2 .pg4 {
+    position: absolute;
+    background: linear-gradient(to top, #B5BAB7 30%, #F6FFFF, #F6FFFF);
+    width: 3vw;
+    height: 7vw;
+    top: 50%;
+    left: 38%;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 1%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 1%;
+    rotate: 200deg;
+}
+
+.floresl2 .pg5 {
+    position: absolute;
+    background: linear-gradient(to top, #B5BAB7 30%, #F6FFFF, #F6FFFF);
+    width: 3vw;
+    height: 7vw;
+    top: 36%;
+    left: 16%;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 1%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 1%;
+    rotate: -100deg;
+}
+
+.floresp1 {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    width: 10vw;
+    height: 20vw;
+    rotate: 15deg;
+    animation: moverP1 2s linear infinite;
+}
+
+.floresp1 .tallo {
+    position: absolute;
+    background: linear-gradient(to top, #43573E, #283442, #667266);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    top: 25%;
+    left: 30%;
+    width: .5vw;
+    height: 15vw;
+    rotate: 15deg;
+}
+
+
+.floresp1 .contenedorPetalos {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+}
+
+.floresp1 .contenedorPetalos .tp1 {
+    position: absolute;
+    background: linear-gradient(to right bottom, #909886, #666455, #909886);
+    width: 40%;
+    height: 25%;
+    top: 40%;
+    left: 10%;
+    border-top-right-radius: 1%;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 1%;
+    border-bottom-right-radius: 100%;
+    rotate: 60deg;
+}
+
+.floresp1 .contenedorPetalos .tp2 {
+    position: absolute;
+    background: linear-gradient(to right bottom, #909886, #666455, #909886);
+    width: 35%;
+    height: 25%;
+    top: 60%;
+    left: 45%;
+    border-top-right-radius: 1%;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 1%;
+    border-bottom-right-radius: 100%;
+    rotate: 60deg;
+}
+
+.floresp1 .contenedorPetalos .centro {
+    position: absolute;
+    background: -webkit-radial-gradient(center, circle, #E59E14, #FBBF4C 50%);
+    width: 35%;
+    height: 30%;
+    top: 25%;
+    left: 40%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 5px #E59E14;
+}
+
+.floresp1 .contenedorPetalos .pg1 {
+    position: absolute;
+    background: linear-gradient(to top, #b85d6b 10%, #F8C1C5, #F8C1C5);
+    width: 35%;
+    height: 35%;
+    top: 10%;
+    left: 52%;
+    border-top-right-radius: 80%;
+    border-top-left-radius: 80%;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 1%;
+    rotate: 30deg;
+}
+
+.floresp1 .contenedorPetalos .pg2 {
+    position: absolute;
+    background: linear-gradient(to top, #b85d6b 10%, #F8C1C5, #F8C1C5);
+    width: 30%;
+    height: 40%;
+    top: 35%;
+    left: 60%;
+    border-top-right-radius: 80%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 40%;
+    rotate: 100deg;
+}
+
+.floresp1 .contenedorPetalos .pg3 {
+    position: absolute;
+    border: 1px solid rgb(211, 162, 162);
+    background: linear-gradient(to top, #b85d6b 10%, #F8C1C5, #F8C1C5);
+    width: 45%;
+    height: 35%;
+    top: 25%;
+    left: 20%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 40%;
+    rotate: 30deg;
+}
+
+.floresp1 .contenedorPetalos .pg4 {
+    position: absolute;
+    border: 1px solid rgb(211, 162, 162);
+    background: linear-gradient(to top, #b85d6b 25%, #F8C1C5, #F8C1C5);
+    width: 35%;
+    height: 45%;
+    top: 0%;
+    left: 15%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 40%;
+    rotate: -35deg;
+}
+
+.floresp2 {
+    position: absolute;
+    top: 16%;
+    left: 52%;
+    width: 15vw;
+    height: 25vw;
+    rotate: 60deg;
+    animation: moverP2 2s linear infinite;
+}
+
+.floresp2 .tallo {
+    position: absolute;
+    background: linear-gradient(to top, #43573E, #283442, #667266);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    top: 25%;
+    left: 30%;
+    width: .5vw;
+    height: 15vw;
+    rotate: 15deg;
+}
+
+.floresp2 .contenedorPetalos {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+}
+
+.floresp2 .contenedorPetalos .tp1 {
+    position: absolute;
+    background: linear-gradient(to right bottom, #909886, #666455, #909886);
+    width: 30%;
+    height: 25%;
+    top: 60%;
+    left: 15%;
+    border-top-right-radius: 1%;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 1%;
+    border-bottom-right-radius: 100%;
+    rotate: 60deg;
+}
+
+.floresp2 .contenedorPetalos .tp2 {
+    position: absolute;
+    background: linear-gradient(to right bottom, #909886, #666455, #909886);
+    width: 30%;
+    height: 25%;
+    top: 75%;
+    left: 45%;
+    border-top-right-radius: 1%;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 1%;
+    border-bottom-right-radius: 100%;
+    rotate: 60deg;
+}
+
+.floresp2 .contenedorPetalos .centro {
+    position: absolute;
+    background: -webkit-radial-gradient(center, circle, #E59E14, #FBBF4C 50%);
+    width: 28%;
+    height: 30%;
+    top: 35%;
+    left: 40%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 5px #E59E14;
+}
+
+.floresp2 .contenedorPetalos .pg1 {
+    position: absolute;
+    background: linear-gradient(to top, #b85d6b 10%, #F8C1C5, #F8C1C5);
+    width: 34%;
+    height: 40%;
+    top: 15%;
+    left: 50%;
+    border-top-right-radius: 80%;
+    border-top-left-radius: 80%;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 1%;
+    rotate: 80deg;
+}
+
+.floresp2 .contenedorPetalos .pg2 {
+    position: absolute;
+    background: linear-gradient(to top, #b85d6b 10%, #F8C1C5, #F8C1C5);
+    width: 30%;
+    height: 40%;
+    top: 50%;
+    left: 55%;
+    border-top-right-radius: 80%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 40%;
+    rotate: 100deg;
+}
+
+.floresp2 .contenedorPetalos .pg3 {
+    position: absolute;
+    border: 1px solid rgb(211, 162, 162);
+    background: linear-gradient(to top, #b85d6b 10%, #F8C1C5, #F8C1C5);
+    width: 40%;
+    height: 35%;
+    top: 45%;
+    left: 25%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 40%;
+    rotate: 30deg;
+}
+
+.floresp2 .contenedorPetalos .pg4 {
+    position: absolute;
+    border: 1px solid rgb(211, 162, 162);
+    background: linear-gradient(to top, #b85d6b 10%, #F8C1C5, #F8C1C5);
+    width: 35%;
+    height: 50%;
+    top: 15%;
+    left: 15%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 40%;
+    rotate: -35deg;
+}
+
+.floresp2 .centro p {
+    rotate: -20deg;
+}
+
+
+.floresp3 {
+    position: absolute;
+    top: 22%;
+    left: 28%;
+    width: 10vw;
+    height: 20vw;
+    rotate: -100deg;
+    z-index: 1;
+    animation: moverP3 2s linear infinite;
+}
+
+.floresp3 .tallo {
+    position: absolute;
+    background: linear-gradient(to top, #43573E, #283442, #667266);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    top: 25%;
+    left: 30%;
+    width: .5vw;
+    height: 20vw;
+    rotate: 5deg;
+}
+
+.floresp3 .contenedorPetalos {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+}
+
+.floresp3 .contenedorPetalos .tp1 {
+    position: absolute;
+    background: linear-gradient(to right bottom, #909886, #666455, #909886);
+    width: 40%;
+    height: 25%;
+    top: 40%;
+    left: 10%;
+    border-top-right-radius: 1%;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 1%;
+    border-bottom-right-radius: 100%;
+    rotate: 60deg;
+}
+
+.floresp3 .contenedorPetalos .tp2 {
+    position: absolute;
+    background: linear-gradient(to right bottom, #909886, #666455, #909886);
+    width: 35%;
+    height: 25%;
+    top: 60%;
+    left: 45%;
+    border-top-right-radius: 1%;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 1%;
+    border-bottom-right-radius: 100%;
+    rotate: 60deg;
+}
+
+.floresp3 .contenedorPetalos .centro {
+    position: absolute;
+    background: -webkit-radial-gradient(center, circle, #E59E14, #FBBF4C 50%);
+    width: 35%;
+    height: 30%;
+    top: 25%;
+    left: 40%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 5px #E59E14;
+}
+
+.floresp3 .contenedorPetalos .pg1 {
+    position: absolute;
+    background: linear-gradient(to top, #b85d6b 10%, #F8C1C5, #F8C1C5);
+    width: 35%;
+    height: 35%;
+    top: 10%;
+    left: 52%;
+    border-top-right-radius: 80%;
+    border-top-left-radius: 80%;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 1%;
+    rotate: 30deg;
+}
+
+.floresp3 .contenedorPetalos .pg2 {
+    position: absolute;
+    background: linear-gradient(to top, #b85d6b 10%, #F8C1C5, #F8C1C5);
+    width: 30%;
+    height: 40%;
+    top: 35%;
+    left: 60%;
+    border-top-right-radius: 80%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 40%;
+    rotate: 100deg;
+}
+
+.floresp3 .contenedorPetalos .pg3 {
+    position: absolute;
+    border: 1px solid rgb(211, 162, 162);
+    background: linear-gradient(to top, #b85d6b 10%, #F8C1C5, #F8C1C5);
+    width: 45%;
+    height: 35%;
+    top: 25%;
+    left: 20%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 40%;
+    rotate: 30deg;
+}
+
+.floresp3 .contenedorPetalos .pg4 {
+    position: absolute;
+    border: 1px solid rgb(211, 162, 162);
+    background: linear-gradient(to top, #b85d6b 25%, #F8C1C5, #F8C1C5);
+    width: 35%;
+    height: 45%;
+    top: 0%;
+    left: 15%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 40%;
+    rotate: -35deg;
+}
+
+.floresp3 .centro p {
+    rotate: 80deg;
+}
+
+.floresp4 {
+    position: absolute;
+    top: -1%;
+    left: 25%;
+    width: 15vw;
+    height: 25vw;
+    rotate: -80deg;
+    animation: moverP4 1s linear infinite;
+}
+
+.floresp4 .tallo {
+    position: absolute;
+    background: linear-gradient(to top, #43573E, #283442, #667266);
+    position: absolute;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    top: 25%;
+    left: 30%;
+    width: .5vw;
+    height: 25vw;
+    rotate: 15deg;
+}
+
+.floresp4 .contenedorPetalos {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+}
+
+.floresp4 .contenedorPetalos .tp1 {
+    position: absolute;
+    background: linear-gradient(to right bottom, #909886, #666455, #909886);
+    width: 30%;
+    height: 25%;
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    border-top-right-radius: 1%;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 1%;
+    border-bottom-right-radius: 100%;
+    rotate: 60deg;
+}
+
+.floresp4 .contenedorPetalos .tp2 {
+    position: absolute;
+    background: linear-gradient(to right bottom, #909886, #666455, #909886);
+    width: 30%;
+    height: 25%;
+    top: 75%;
+    left: 45%;
+    border-top-right-radius: 1%;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 1%;
+    border-bottom-right-radius: 100%;
+    rotate: 60deg;
+}
+
+.floresp4 .contenedorPetalos .centro {
+    position: absolute;
+    background: -webkit-radial-gradient(center, circle, #E59E14, #FBBF4C 50%);
+    width: 28%;
+    height: 30%;
+    top: 35%;
+    left: 40%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 5px #E59E14;
+}
+
+.floresp4 .contenedorPetalos .pg1 {
+    position: absolute;
+    background: linear-gradient(to top, #b85d6b 10%, #F8C1C5, #F8C1C5);
+    width: 34%;
+    height: 40%;
+    top: 15%;
+    left: 50%;
+    border-top-right-radius: 80%;
+    border-top-left-radius: 80%;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 1%;
+    rotate: 80deg;
+}
+
+.floresp4 .contenedorPetalos .pg2 {
+    position: absolute;
+    background: linear-gradient(to top, #b85d6b 10%, #F8C1C5, #F8C1C5);
+    width: 30%;
+    height: 40%;
+    top: 50%;
+    left: 55%;
+    border-top-right-radius: 80%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 40%;
+    rotate: 100deg;
+}
+
+.floresp4 .contenedorPetalos .pg3 {
+    position: absolute;
+    border: 1px solid rgb(211, 162, 162);
+    background: linear-gradient(to top, #b85d6b 10%, #F8C1C5, #F8C1C5);
+    width: 40%;
+    height: 35%;
+    top: 45%;
+    left: 25%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 40%;
+    rotate: 30deg;
+}
+
+.floresp4 .contenedorPetalos .pg4 {
+    position: absolute;
+    border: 1px solid rgb(211, 162, 162);
+    background: linear-gradient(to top, #b85d6b 10%, #F8C1C5, #F8C1C5);
+    width: 35%;
+    height: 50%;
+    top: 15%;
+    left: 15%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 40%;
+    rotate: -35deg;
+}
+
+.floresp4 .centro p {
+    rotate: 80deg;
+}
+
+.flores {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    width: 25vw;
+    height: 22vw;
+    visibility: visible;
+    scale: 1;
+    z-index: 1;
+}
+
+.flores .tp1 {
+    position: absolute;
+    background: linear-gradient(to right bottom, #667266, #013650, #667266);
+    width: 30%;
+    height: 40%;
+    top: 5%;
+    left: 45%;
+    border-top-right-radius: 1%;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 1%;
+    border-bottom-right-radius: 100%;
+    rotate: -15deg;
+}
+
+.flores .tp2 {
+    position: absolute;
+    background: linear-gradient(to right bottom, #667266, #013650, #667266);
+    width: 25%;
+    height: 28%;
+    top: 28%;
+    left: 70%;
+    border-top-right-radius: 1%;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 1%;
+    border-bottom-right-radius: 100%;
+    rotate: 55deg;
+}
+
+.flores .tp3 {
+    position: absolute;
+    background: linear-gradient(to right bottom, #667266, #013650, #667266);
+    width: 25%;
+    height: 60%;
+    top: 53%;
+    left: 48%;
+    border-top-right-radius: 1%;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 100%;
+    rotate: 130deg;
+}
+
+.flores .tp4 {
+    position: absolute;
+    background: linear-gradient(to right bottom, #667266, #013650, #667266);
+    width: 35%;
+    height: 45%;
+    top: 55%;
+    left: 5%;
+    border-top-right-radius: 1%;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 1%;
+    border-bottom-right-radius: 100%;
+    rotate: 10deg;
+}
+
+.flores .tp5 {
+    position: absolute;
+    background: linear-gradient(to right bottom, #667266, #013650, #667266);
+    width: 30%;
+    height: 40%;
+    top: 5%;
+    left: 2%;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 150%;
+    border-bottom-left-radius: 1%;
+    border-bottom-right-radius: 100%;
+    rotate: -80deg;
+}
+
+.flores .pg1 {
+    position: absolute;
+    background: linear-gradient(to top, #b85d6b 10%, #F8C1C5, #F8C1C5);
+    width: 30%;
+    height: 45%;
+    top: 5%;
+    left: 25%;
+    border-top-right-radius: 150%;
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 150%;
+    border-bottom-right-radius: 15%;
+    rotate: 30deg;
+}
+
+.flores .pg2 {
+    position: absolute;
+    background: linear-gradient(to top, #b85d6b 10%, #F8C1C5, #F8C1C5);
+    width: 7vw;
+    height: 9vw;
+    top: 18%;
+    left: 50%;
+    border-top-right-radius: 150%;
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 150%;
+    border-bottom-right-radius: 15%;
+    rotate: 70deg;
+}
+
+.flores .pg3 {
+    position: absolute;
+    background: linear-gradient(to top, #b85d6b 10%, #F8C1C5, #F8C1C5);
+    width: 7vw;
+    height: 9vw;
+    top: 48%;
+    left: 60%;
+    border-top-right-radius: 150%;
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 150%;
+    border-bottom-right-radius: 15%;
+    rotate: 150deg;
+}
+
+
+.flores .pg4 {
+    position: absolute;
+    background: linear-gradient(to top, #b85d6b 10%, #F8C1C5, #F8C1C5);
+    width: 7vw;
+    height: 9vw;
+    top: 55%;
+    left: 30%;
+    border-top-right-radius: 150%;
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 150%;
+    border-bottom-right-radius: 15%;
+    rotate: 205deg;
+}
+
+.flores .pg5 {
+    position: absolute;
+    background: linear-gradient(to top, #b85d6b 10%, #F8C1C5, #F8C1C5);
+    width: 8vw;
+    height: 9vw;
+    top: 30%;
+    left: 5%;
+    border-top-right-radius: 150%;
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 150%;
+    border-bottom-right-radius: 15%;
+    rotate: -50deg;
+}
+
+.flores .pn1 {
+    position: absolute;
+    border: 1px solid rgb(211, 162, 162);
+    background: linear-gradient(to top, #FFEBEF 10%, #F8C1C5, #F8C1C5);
+    width: 8vw;
+    height: 6vw;
+    top: 22%;
+    left: 35%;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 15%;
+    rotate: 80deg;
+}
+
+.flores .pn2 {
+    position: absolute;
+    border: 1px solid rgb(211, 162, 162);
+    background: linear-gradient(to top, #FFEBEF 10%, #F8C1C5, #F8C1C5);
+    width: 8vw;
+    height: 6vw;
+    top: 40%;
+    left: 50%;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 15%;
+    rotate: 150deg;
+}
+
+.flores .pn3 {
+    position: absolute;
+    border: 1px solid rgb(211, 162, 162);
+    background: linear-gradient(to top, #FFEBEF 10%, #F8C1C5, #F8C1C5);
+    width: 8vw;
+    height: 7vw;
+    top: 55%;
+    left: 43%;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 15%;
+    rotate: -145deg;
+}
+
+.flores .pn4 {
+    position: absolute;
+    border: 1px solid rgb(211, 162, 162);
+    background: linear-gradient(to top, #FFEBEF 10%, #F8C1C5, #F8C1C5);
+    width: 8vw;
+    height: 6vw;
+    top: 55%;
+    left: 18%;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 15%;
+    rotate: -70deg;
+}
+
+.flores .pn5 {
+    position: absolute;
+    border: 1px solid rgb(211, 162, 162);
+    background: linear-gradient(to top, #FFEBEF 10%, #F8C1C5, #F8C1C5);
+    width: 8vw;
+    height: 6vw;
+    top: 25%;
+    left: 12%;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 15%;
+    rotate: 15deg;
+}
+
+.flores .centro {
+    position: absolute;
+    background: -webkit-radial-gradient(center, circle, #E59E14, #FBBF4C 50%);
+    width: 6vw;
+    height: 6vw;
+    top: 35%;
+    left: 35%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 5px #E59E14;
+}
+
+.b1 {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    animation: movC0 3s linear infinite 700ms;
+}
+
+.b2 {
+    color: #F8C1C5;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    text-shadow: 0px 0px 15px #FF01FF;
+    animation: movC2 3s linear infinite 100ms;
+}
+
+.b3 {
+    position: absolute;
+    color: #FF0692;
+    top: 50%;
+    left: 45%;
+    animation: movC 3s linear infinite 1000ms;
+}
+
+.b4 {
+    position: absolute;
+    color: white;
+    top: 40%;
+    left: 35%;
+    animation: movC 3s linear infinite 2000ms;
+}
+
+.b5 {
+    position: absolute;
+    color: #F8C1C5;
+    top: 90%;
+    left: 80%;
+    text-shadow: 0px 0px 15px #FF01FF;
+    animation: movC0 3s linear infinite 1000ms;
+}
+
+.b6 {
+    position: absolute;
+    color: white;
+    top: 10%;
+    left: 10%;
+    animation: movC2 3s linear infinite 1500ms;
+}
+
+.bl {
+    position: absolute;
+    color: white;
+    top: 50%;
+}
+
+.bl1 {
+    left: 40%;
+    animation:
+        movC 3s linear infinite 400ms;
+}
+
+.bl2 {
+    left: 43%;
+    animation:
+        movC 3s linear infinite 100ms;
+}
+
+.bl3 {
+    left: 46%;
+    animation:
+        movC 3s linear infinite 300ms;
+}
+
+.bl4 {
+    left: 49%;
+    animation:
+        movC 3s linear infinite 100ms;
+}
+
+@keyframes moverP1 {
+    0% {
+        left: 50%;
+    }
+
+    25% {
+        left: 49.9%;
+
+    }
+
+    50% {
+        left: 50%;
+
+    }
+
+    75% {
+        left: 50.1%;
+    }
+
+    100% {
+        left: 50%;
+    }
+
+}
+
+@keyframes moverP2 {
+    0% {
+        top: 16%;
+    }
+
+    25% {
+        top: 15.9%;
+
+    }
+
+    50% {
+        top: 16%;
+
+    }
+
+    75% {
+        top: 16.1%;
+    }
+
+    100% {
+        top: 16%;
+    }
+
+}
+
+@keyframes moverP3 {
+    0% {
+        top: 22%;
+    }
+
+    25% {
+        top: 21.9%;
+
+    }
+
+    50% {
+        top: 22%;
+
+    }
+
+    75% {
+        top: 22.1%;
+    }
+
+    100% {
+        top: 22%;
+    }
+
+}
+
+@keyframes moverP4 {
+    0% {
+        top: -1%;
+    }
+
+    25% {
+        top: -1.1%;
+
+    }
+
+    50% {
+        top: -1%;
+
+    }
+
+    75% {
+        top: -0.9%;
+    }
+
+    100% {
+        top: -1%;
+    }
+
+}
+
+@keyframes movC0 {
+    0% {
+        transform: translateY(0%);
+    }
+
+    50% {
+        transform: translateY(-300%) translateX(500%);
+    }
+
+    100% {
+        transform: translateY(-500%) translateX(50%);
+        opacity: .1;
+    }
+}
+
+@keyframes movC {
+    0% {
+        transform: translateY(0%);
+    }
+
+    100% {
+        transform: translateY(-500%);
+        opacity: .1;
+    }
+}
+
+@keyframes movC2 {
+    0% {
+        transform: translateY(0%);
+    }
+
+    50% {
+        transform: translateY(-300%) translateX(-500%);
+    }
+
+    100% {
+        transform: translateY(-500%) translateX(-50%);
+        opacity: .1;
+    }
+}
